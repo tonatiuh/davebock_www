@@ -1,4 +1,14 @@
 DavebockWww::Application.routes.draw do
+  get "pages/news"
+
+  get "pages/bio"
+
+  get "pages/mission"
+
+  get "pages/consulting"
+
+  get "pages/talks"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
